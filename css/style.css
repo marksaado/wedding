@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cormorant', serif;
+    text-align: center;
+}
+
+.bg{
+    background-color: #f7f5f3;
+}
+.navbar-brand strong{
+    font-size: 1.5rem;
+}
+.navbar-nav li{
+    margin-left: auto;
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+.vid video {
+    width: 100%;
+}
+
+.bottons {
+    position: relative;
+    bottom: 25px;
+}
+main, .even{
+    background-color: #f0efefcb;
+}
+main h1{
+    width: 90%;
+    margin: 0 auto;
+}
+.card-img-top{
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 767px){
+    .video-botton{
+        width: 200px;
+        font-size: 1.5rem;
+    }
+    main h1{
+        width: 80%;
+    }
+    .card-title{
+        font-size: 2.5rem;
+        margin: 30px 0;
+    }
+    .card-text{
+        font-size: 2rem;
+        padding: 10px 0;
+    }
+}
+@media only screen and (min-width: 1024px){
+    
+    .navbar-brand strong{
+        font-size: 2.5rem;
+    }
+    .navbar-brand {
+        font-size: 2.2rem;
+    }
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .navbar-nav li{
+        margin-left: auto;
+        padding-right: 20px;
+    }
+    .nav-link {
+        font-size: 1.2rem;
+        font-size: 2.2rem;
+    }
+    .bottons{
+        bottom: 40px;
+    }
+    .video-botton{
+        width: 300px;
+        font-size: 2rem;
+    }
+    main h1 {
+        font-size: 4rem;
+    }
+    .card-title{
+        font-size: 3rem;
+    }
+    .card-text{
+        font-size: 2.5rem;
+    }
+}
